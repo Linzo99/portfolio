@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import ProjectItem from '../src/components/Project'
+import SocilaItem from '../src/components/SocialItem'
+import Skills from '../src/components/Skills'
+
 import LinkSmoothScroll from '../src/components/LinkSmoothScroll'
 
 
@@ -39,8 +42,8 @@ export default function Home() {
               </span>
               <span className="relative group">
                 <li className="hover:text-secondary cursor-pointer">
-                  <LinkSmoothScroll href="/#contact">
-                    <a>CONTACT</a>
+                  <LinkSmoothScroll href="/#contacts">
+                    <a>CONTACTS</a>
                   </LinkSmoothScroll>
                 </li>
                 <span className="absolute left-0 -bottom-1 w-full h-0.5 bg-white rounded-lg transform scale-x-0 group-hover:scale-x-100 transition ease-in-out duration-300"></span>
@@ -54,7 +57,7 @@ export default function Home() {
                 <p className="text-6xl font-bold tracking-wider">Mariana</p>
                 <p className="ml-24 text-6xl font-bold tracking-wider">Lopez</p>
               </span>
-              <p className="text-lg">Fullstack developer</p>
+              <p className="text-lg italic tracking-wider">Fullstack developer</p>
               <a className="bg-secondary mr-auto cursor-pointer text-white rounded-sm px-10 py-2 text-xs font-bold">
                 DOWNLOAD CV
               </a>
@@ -84,9 +87,7 @@ export default function Home() {
       <section id="works" className="w-full h-section bg-primary overflow-hidden">
         <div className="px-4 md:px-0 max-w-3xl mx-auto relative h-full pt-10">
           <h2 className="text-secondary font-bold">WORKS</h2>
-          <div className="flex pt-5 space-x-7 overflow-x-auto pr-2">
-            <ProjectItem/>
-            <ProjectItem/>
+          <div className="flex pt-5 pb-2 space-x-7 overflow-x-auto pr-2">
             <ProjectItem/>
             <ProjectItem/>
             <ProjectItem/>
@@ -94,8 +95,27 @@ export default function Home() {
         </div>
       </section>
       <section id="skills" className="w-full h-section bg-primary-light overflow-h">
-        <div className="px-4 md:px-0 max-w-3xl mx-auto relative h-full pt-10">
+        <div className="px-7 md:px-0 max-w-3xl mx-auto relative h-full pt-10">
             <h2 className="text-secondary font-bold">SKILLS</h2>
+            <div class="flex pt-7">
+              <Skills/>
+            </div>
+        </div>
+      </section>
+      <section id="contacts" className="w-full h-screen bg-primary overflow-h flex flex-col">
+        <div className="w-full flex-1 px-4 md:px-0 max-w-3xl mx-auto relative h-full pt-10">
+            <h2 className="text-secondary font-bold">CONTACTS</h2>
+            <div className="bg-primary-light px-2 py-10 grid grid-cols-2 md:grid-cols-3 gap-y-4 gap-x-7 rounded-md mt-5">
+              <SocilaItem/>
+              <SocilaItem/>
+              <SocilaItem/>
+              <SocilaItem/>
+            </div>
+        </div>
+        <div className="max-w-3xl mx-auto relative flex-1 flex justify-center items-center flex-col space-y-7">
+            <h2 className="text-4xl font-bold tracking-wider">Let's Talk ?</h2>
+            <button className="text-sm hover:bg-secondary hover:text-white font-bold text-secondary border-2 border-secondary rounded-sm px-4 py-2">CONTACT ME</button>
+          <p className="absolute bottom-5 text-sm text-gray-700">@2021 linzo99 sallalioune@, esp</p>
         </div>
       </section>
     </div>
