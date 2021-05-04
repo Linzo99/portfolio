@@ -66,7 +66,7 @@ const getTop = function (element, start) {
     }
     step()
   }
-  export default url => {
+    const url = () => {
     return new Promise(function (resolve, reject) {
       const pattern = /^(\/#.+)|(.+(\/#.+))$/
       if (pattern.test(url)) {
@@ -81,4 +81,5 @@ const getTop = function (element, start) {
       reject(new Error('Error: hash in URL is invalid or element not found!'))
     })
   }
+  export default url;
   

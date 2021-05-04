@@ -1,5 +1,6 @@
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  mode:'jit',
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './src/components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -16,7 +17,11 @@ module.exports = {
         section: '540px',
       },
       width:{
-        project: '336px',
+        project: '320px',
+        tinny: '280px',
+      },
+      lineClamp:{
+        10: '10'
       }
     },
   },
@@ -25,5 +30,8 @@ module.exports = {
       scale:['group-hover']
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+    require('tailwind-scrollbar-hide')
+  ],
 }

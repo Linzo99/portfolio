@@ -1,13 +1,14 @@
 {
     "main": {
-      "name": "Alioune Sall",
-      "occupation": "Etudiant et Developpeur FullStack",
+      "first_name": "Alioune",
+      "last_name" : "Sall",
+      "occupation": "FullStack Developer",
       "description": "Full Stack React Developer by Day, Founder && Freelancer by Night. #papaReact",
-      "image": "IG_Sonny.jpeg",
+      "image": "profile.png",
       "bio": "I am an athlete at heart, with an entrepreneurial spirit, a knack for online security, and a passion for coding. Having returned from my year of traveling, I pursued my first development job to kick off my career. I was hired as a full stack developer by Shop Your Own Mortgage, where I still work today. Since beginning my career there, I have been given the opportunity to shift into cybersecurity for the company. I am currently working towards my Certified Ethical Hacker certification while working as a full stack developer and lead security specialist.",
       "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
       "email": "sallalioune99@gmail.com",
-      "phone": "+221 76 668 85 19",
+      "phone": "+221 784670118",
       "address": {
         "street": "Keur mbaye Fall",
         "city": "Dakar",
@@ -18,17 +19,12 @@
       "resumedownload": "",
       "social": [
         {
-          "name": "facebook",
-          "url": "https://www.facebook.com/linzosall",
-          "className": "fab fa-facebook"
-        },
-        {
-          "name": "linkedin",
+          "name": "Linkedin",
           "url": "https://www.linkedin.com/in/linzo",
           "className": "fab fa-linkedin"
         },
         {
-          "name": "instagram",
+          "name": "Instagram",
           "url": "https://www.instagram.com/linzosall",
           "className": "fab fa-instagram"
         },
@@ -36,61 +32,6 @@
           "name": "github",
           "url": "http://github.com/Linzo99",
           "className": "fab fa-github"
-        }
-      ]
-    },
-    "resume": {
-      "skillmessage": "Ici se trouve quelque de mes compétences en tant que développeur",
-      "education": [
-        {
-          "school": "Ecole Superieur Polytechnique de Dakar",
-          "degree": "DIC en Genie Informatique",
-          "graduated": "Septembre 2023",
-          "description": "Under the recommendation and Guidance of the Head Coach of the UVIC soccer team, I transferred to the University of Victoria. Here I took my Bachelors of Computer Science with a Software Engineering Specialty and achieved a much more thorough education in the underlying theory, concepts, and science behind more complex programming. It was here that I discovered my passion for scalable application programming (web and mobile), the security behind computer and application systems, and found that I have a knack for understanding complex algorithms."
-        }
-      ],
-      "work": [
-        {
-          "company": "Blsrs Coorporation",
-          "title": "Membre d'équipe et Chef de conception",
-          "years": "Janvier 2020 - Present",
-          "description": "Je m'assure de tout ce qui est développement et du cote data science"
-        },
-        {
-          "company": "Lindar Media",
-          "title": "Software Engineer",
-          "years": "Nov 2019 - April 2020",
-          "description": "Building MrQ, a gambling website."
-        }
-      ],
-      "skills": [
-        {
-          "name": "Python",
-          "level": "100%"
-        },
-        {
-          "name": "ReactJs",
-          "level": "100%"
-        },
-        {
-          "name": "Linux",
-          "level": "70%"
-        },
-        {
-          "name": "CSS",
-          "level": "90%"
-        },
-        {
-          "name": "Git",
-          "level": "60%"
-        },
-        {
-          "name": "HTML5",
-          "level": "80%"
-        },
-        {
-          "name": "MongoDB",
-          "level": "80%"
         }
       ]
     },
