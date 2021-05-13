@@ -81,9 +81,10 @@ export default function Home({ data }) {
           <h2 className="text-secondary font-bold">ABOUT ME</h2>
           <div className="flex pt-10 sm:pt-0">
             <div className="invisible md:visible sm:flex-1">
+              <div></div>
             </div>
             <div className="flex-1 flex space-y-7 flex-col">
-              <h1 className="text-lg md:text-3xl font-bold">Why hire me for your next project ?</h1>
+              <h1 className="text-xl md:text-3xl font-bold">Why hire me for your next project ?</h1>
               <p className="text-sm md:text-lg line-clamp-10">{ main.bio }</p>
               <button className="text-xs hover:bg-secondary hover:text-white font-bold text-secondary border-2 border-secondary mr-auto rounded-sm px-3 py-1">READ MORE</button>
             </div>
