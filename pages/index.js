@@ -127,8 +127,8 @@ export default function Home({ data }) {
         </div>
         <div className="max-w-3xl mx-auto relative flex-1 flex justify-center items-center flex-col space-y-7">
             <h2 className="text-4xl font-bold tracking-wider">Let's Talk ?</h2>
-            <button onClick={()=>setShow(true)} className="text-sm hover:bg-secondary hover:text-white font-bold text-secondary border-2 border-secondary rounded-sm px-4 py-2">CONTACT ME</button>
-          <p className="absolute bottom-5 text-sm text-gray-700">@2021 linzo99 sallalioune@, esp</p>
+            <button onClick={()=>setShow(true)} className={`${show && 'hidden'} text-sm hover:bg-secondary hover:text-white font-bold text-secondary border-2 border-secondary rounded-sm px-4 py-2`}>CONTACT ME</button>
+          <p className="absolute bottom-5 text-xs sm:text-sm text-gray-700">@2021 linzo99 sallalioune@, esp</p>
         </div>
         <ContactModal onClose={()=>setShow(false)} show={show}/>
       </section>

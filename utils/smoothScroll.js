@@ -66,11 +66,11 @@ const getTop = function (element, start) {
     }
     step()
   }
-    const url = () => {
+    const url = (link) => {
     return new Promise(function (resolve, reject) {
       const pattern = /^(\/#.+)|(.+(\/#.+))$/
-      if (pattern.test(url)) {
-        const hash = pattern.exec(url).filter(item => item).pop()
+      if (pattern.test(link)) {
+        const hash = pattern.exec(link).filter(item => item).pop()
         const id = hash.replace(/\/?#/, '')
         const el = document.getElementById(id)
         if (el) {
