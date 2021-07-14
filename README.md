@@ -10,7 +10,7 @@ npm run dev
 yarn dev
 ```
 
-Open [portfolio-2r37dbgl7-linzo99.vercel.app/](portfolio-2r37dbgl7-linzo99.vercel.app/) with your browser to see the result.
+Open [https://portfolio-2r37dbgl7-linzo99.vercel.app/](https://portfolio-2r37dbgl7-linzo99.vercel.app/) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
