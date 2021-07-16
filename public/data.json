@@ -3,9 +3,9 @@
       "first_name": "Alioune",
       "last_name" : "Sall",
       "occupation": "FullStack Developer",
-      "description": "Full Stack React Developer by Day, Founder && Freelancer by Night. #papaReact",
+      "description": "Full Stack React Developer by Day, Founder && Freelancer by Night",
       "image": "profile.png",
-      "bio": "I am an athlete at heart, with an entrepreneurial spirit, a knack for online security, and a passion for coding. Having returned from my year of traveling, I pursued my first development job to kick off my career. I was hired as a full stack developer by Shop Your Own Mortgage, where I still work today. Since beginning my career there, I have been given the opportunity to shift into cybersecurity for the company. I am currently working towards my Certified Ethical Hacker certification while working as a full stack developer and lead security specialist.",
+      "bio": "I am an athlete at heart, with an entrepreneurial spirit, a passion for coding. Having always wanted to do computer science, as soon as i got my Baccaulaureat i joined ESP ( Ecole Superieur Polytechnique de dakar ) i worked to increase my knowledge and gain some skills. I love what i do and i'm good at it",
       "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
       "email": "sallalioune99@gmail.com",
       "phone": "+221 784670118",
@@ -38,28 +38,16 @@
     "portfolio": {
       "projects": [
         {
-          "title": "MERN Stack WhatsApp Clone",
-          "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-          "image": "whatsapp-mern.jpeg",
-          "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+          "title": " WhatsApp Clone",
+          "category": "WhatsApp Clone built with Nextjs + Tailwindcss",
+          "image": "whatsapp-clone.png",
+          "url": "https://whatsapp-clone-linzo99.vercel.app/"
         },
         {
-          "title": "MERN Stack TikTok Clone",
-          "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-          "image": "whatsapp-mern.jpeg",
-          "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
-        },
-        {
-          "title": "Facebook Clone with React",
-          "category": "Facebook Clone built with ReactJS",
-          "image": "whatsapp-mern.jpeg",
-          "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
-        },
-        {
-          "title": "Airbnb Clone",
-          "category": "Facebook Clone built with ReactJS",
-          "image": "whatsapp-mern.jpeg",
-          "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
+          "title": "Site Officiel CEE",
+          "category": "CEE website build with Nextjs + Tailwindcss",
+          "image": "cee_website.png",
+          "url": "https://espolytech.vercel.app/"
         }
       ]
     },

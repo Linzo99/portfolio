@@ -3,7 +3,9 @@ import Image from 'next/image'
 export default function ProjectItem({ project }){
     return(
         <div className="bg-primary-light w-tinny md:w-project rounded-sm flex-shrink-0 overflow-hidden">
-            <Image className="object-cover" src="/images/project.png" width={336} height={250}/>
+            <div className="w-[336px] h-[220px] relative">
+                <Image src={`/images/${project.image}`} width={336} height={220} objectFit="cover"/>
+            </div>
             <div className="flex space-y-3 px-3 py-2 flex-col ">
 
                 <h2 className="font-bold text-secondary text-xs">{project.category}</h2>

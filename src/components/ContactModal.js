@@ -8,7 +8,7 @@ export default function ContactModal({ show, onClose}){
     }
     return(
         <div className="flex justify-center items-center absolute top-0 left-0 right-0 bottom-0 px-4 md:px-0">
-            <form onSubmit={handleSubmit(onSubmit)} className="max-w-sm max-h-sm min-w-sm relative flex ring-1 ring-secondary flex-col px-7 py-2 space-y-3 bg-primary-light items-center sm:w-1/2 h-3/5 rounded-lg z-50">
+            <form onSubmit={handleSubmit(onSubmit)} className="w-full h-[80%] relative flex ring-1 ring-secondary flex-col px-7 py-2 space-y-3 bg-primary-light items-center sm:w-1/2 h-3/5 rounded-lg z-50">
                 <h1 className="text-gray-600 text-lg font-bold cursor-pointer hover:text-white"> Contact Me !</h1>
                 <button onClick={onClose} className="absolute right-2 top-0">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-secondary cursor-pointer hover:font-bold" fill="none" viewBox="0 0 24 24" stroke="currentColor">

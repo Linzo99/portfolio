@@ -68,10 +68,10 @@ export default function Home({ data }) {
                 DOWNLOAD CV
               </a>
             </div>
-            <div className="invisible sm:visible absolute right-0 -bottom-7">
+            <div className="invisible sm:visible absolute right-0 -bottom-40">
               <Image 
               className="object-contain"
-              src={`/images/${main.image}`} width={300} height={500}/>
+              src={`/images/${main.image}`} width={500} height={700}/>
             </div>
           </div>
         </div>
